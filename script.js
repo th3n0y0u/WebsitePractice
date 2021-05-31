@@ -2,14 +2,16 @@ var userinput = prompt("what do you want from me");
 var table = [["bruh", 3], ["shush", 69420], ["shut up", 69420666]]
 
 
-if(userinput == "shut up"); {
-  document.write("your such a noob");
-}
-if(userinput == "ratio"); {
-  document.write("wow ok, ratio");
-}
-if(userinput == "Goodbye!"); {
-  document.write("yeah that's write")
+function text() {
+  if(userinput == "shut up"); {
+    console.log("your such a noob");
+  }
+  if(userinput == "ratio"); {
+    console.log("wow ok, ratio");
+  }
+  if(userinput == "Goodbye!"); {
+    console.log("yeah that's write")
+  }
 }
 
 function noob() {
